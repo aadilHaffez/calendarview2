@@ -328,14 +328,14 @@ public class CalendarView2 extends ViewGroup {
                     R.styleable.CalendarView2_mcv_leftArrowMask
             );
             if (leftMask == null) {
-                leftMask = getResources().getDrawable(R.drawable.mcv_action_previous);
+                leftMask = getResources().getDrawable(R.drawable.arrow_previous);
             }
             setLeftArrowMask(leftMask);
             Drawable rightMask = a.getDrawable(
                     R.styleable.CalendarView2_mcv_rightArrowMask
             );
             if (rightMask == null) {
-                rightMask = getResources().getDrawable(R.drawable.mcv_action_next);
+                rightMask = getResources().getDrawable(R.drawable.arrow_next);
             }
             setRightArrowMask(rightMask);
 
